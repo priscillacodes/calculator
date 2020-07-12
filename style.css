@@ -1,0 +1,60 @@
+/*stylesheet for calculator*/
+body{
+    background-color: #2B2C28;
+}
+
+header{
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.6em;
+    color: #FFFAFB;
+}
+
+.container{
+    display: grid;
+    border: 5px solid #85827ba6;
+    width: 30%;
+    height: 28em;
+    margin: auto;
+    border-radius: 3em;
+    background-color: #BEB7A4;
+}
+
+.container .screen{
+    display: grid;
+    border: 3px solid #FFFAFB;
+    width: 85%;
+    height: 4.5em;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1.1em;
+    background-color: #7DE2D1;
+}
+
+.container .calc-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    height: 18em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.zero{
+    grid-column: span 2;
+}
+
+.property{
+    background-color: #DA4167;
+    border: #FFFAFB solid;
+}
+
+button{
+    border-radius: 0.5em;
+    background-color: #8A817C;
+    border: #FFFAFB solid;
+    font-size: 1.5em;
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
+}
