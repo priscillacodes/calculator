@@ -10,14 +10,27 @@ header{
     color: #FFFAFB;
 }
 
+@media (min-width: 576px) {
+    .container .screen .calc-buttons {
+      max-width: 1000px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container .screen .calc-buttons {
+      max-width: 720px;
+    }
+  }
+
 .container{
     display: grid;
     border: 5px solid #85827ba6;
-    width: 30%;
+    width: 400px;
     height: 28em;
     margin: auto;
     border-radius: 3em;
     background-color: #BEB7A4;
+    position: relative;
 }
 
 .container .screen{
