@@ -10,9 +10,9 @@ header{
     color: #FFFAFB;
 }
 
-@media (min-width: 415px) {
+@media (min-width: 375px) {
     .container .screen .calc-buttons {
-      max-width: 435px;
+      max-width: 385px;
     }
 }
 
