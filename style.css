@@ -12,7 +12,7 @@ header{
 
 @media (min-width: 576px) {
     .container .screen .calc-buttons {
-      max-width: 1000px;
+      max-width: 540px;
     }
   }
   
